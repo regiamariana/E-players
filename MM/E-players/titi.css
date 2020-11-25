@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Titillium+Web:wght@600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* importante colocar para as alturas ficarem certas */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------------------------------- */
+
+/* início estilização da nav */
+
+header{
+    height: 80px;
+    background-color: #1E1C21;
+}
+
+.container-grid{
+    width: 1200px;
+    margin: auto;
+    
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* significa que ele vai ter 100% da altura do pai */
+    height: 100%;
+}
+
+.topo nav{
+    width: 660px;
+}
+
+.logo-eplayers{
+    width: 280px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    /* interpreta como texto */
+    text-transform: uppercase;
+}
+
+
+.menu a:hover{
+    text-decoration: underline;
+    text-shadow: 0px 0px 20px #fff;
+}
+
+/* fim estilização nav */
+
+/* ----------------------------------------- */
+
+/* início estilização banner */
+
+.banner{
+    height: 610px;
+    background-image: url(./assets/Banner_1_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conteudo-banner{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.texto-banner{
+    color: #fff;
+    /* deixa um em baixo do outro  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-banner h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.texto-banner p{
+    font-size: 25px;
+}
+
+.texto-banner a{
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    /* deixa em caps lock */
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #C20000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+
+
+/* fim estilização banner */
+
+/* --------------------------------------------- */
+
+/* início estilização Logo Jogos */
+
+.jogos{
+    height: 120px;
+    background-color: #000;
+}
+
+.conteudo-jogos{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-jogos img{
+    max-width: 220px;
+    transition: 0.5s;
+}
+
+.conteudo-jogos a:hover img{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+/* fim estilização logo jogos */
+
+/* -------------------------------------------------- */
+
+/* início estilização sobre */
+
+.sobre{
+    height: 490px;
+    background-image: url();
+    position: relative;
+    background-image: linear-gradient(rgba(0, 31, 112, 70%),rgba(0, 31, 112, 70%)), url("bg-lol.jpg");
+    /* efeito parallaxe */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.container-faixa{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.faixa{
+    background-color: black;
+    height: 85%;
+    width: 100%;
+    /* inclinar barra */
+    transform: skewY(-3deg);
+}
+
+.conteudo-sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+
+.conteudo-sobre img{
+    width: 510px;
+
+}
+
+.texto-sobre{
+    width: 525px;
+    height: 350px;
+    /* ficar um embaixo do outro bonitinho */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.texto-sobre h2{
+    font-size: 35px;
+}
+
+.texto-sobre p{
+    font-size: 18px;
+}
+
+/* fim estilização sobre */
+
+/* ------------------------------------------- */
+
+/* início estilização eventos */
+
+.eventos{
+    height: 120px;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+}
+
+.container-eventos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.partida-eventos{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 227px;
+    justify-content: space-between;
+}
+
+.versus{
+    font-weight: bold;
+}
+/* fim estilização eventos */
+
+
+
+
+
+
+
+
