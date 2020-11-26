@@ -266,6 +266,11 @@ header{
     color: #fff;
 }
 
+.container-noticias-jogos{
+    display: flex;
+    justify-content: space-between;
+}
+
 .card-noticia{
     height: 333px;
     width: 215px;
@@ -275,6 +280,60 @@ header{
 
 .card-noticia img{
     width: 100%;
+}
+
+.card-noticia h3{
+    /* distância entre um elemento e outro */
+    margin: 10px 0;
+    text-transform: uppercase;
+
+}
+
+.card-noticia h3, .card-noticia p{
+    margin-left: 10px;
+    
+}
+
+.grupo-cards{
+    display: flex;
+    /* quebra a linha para os elementos não ficarem espremidos */
+    flex-wrap: wrap;
+    width: 821px;
+    height: 777px;
+    justify-content: space-between;
+}
+
+.proxima-partida {
+    text-align: center;
+    width: 189px;
+}
+
+.times{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.versus-proximo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grupo-proximos-jogos{
+    background: linear-gradient(rgb(0, 0, 0),rgb(100, 100, 100), rgb(0, 0, 0));
+    box-shadow: 1px 1px 20px 4px #000;
+    width: 237px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 725px;
+}
+
+.container-noticias-jogos h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 /* fim estilização notícias */
