@@ -70,7 +70,7 @@ header{
 
 .banner{
     height: 610px;
-    background-image: url(./assets/Banner_1_1920.jpg);
+    background-image: url(../assets/Banner_1_1920.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -152,9 +152,9 @@ header{
 
 .sobre{
     height: 490px;
-    background-image: url();
+    /* background-image: url(../assets/bg-lol.jpg); */
     position: relative;
-    background-image: linear-gradient(rgba(0, 31, 112, 70%),rgba(0, 31, 112, 70%)), url("bg-lol.jpg");
+    background-image: linear-gradient(rgba(0, 31, 112, 70%),rgba(0, 31, 112, 70%)), url("../assets/bg-lol.jpg");
     /* efeito parallaxe */
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@ header{
     height: 120px;
     background-color: #000;
     color: #fff;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 .container-eventos{
@@ -227,6 +227,11 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.container-eventos h2{
+    text-transform: uppercase;
+    width: 90px;
 }
 
 .partida-eventos{
@@ -237,12 +242,42 @@ header{
     justify-content: space-between;
 }
 
+.partido-eventos p{
+    font-size: 25px;
+}
+
+.faixa-eventos{
+    height: 70px;
+    border: 1px solid #fff;
+}
+
 .versus{
     font-weight: bold;
 }
+
 /* fim estilização eventos */
 
+/* ------------------------------------------------ */
 
+/* início estilização notícias */
+
+.noticias-jogos{
+    background-color: #1e1c21;
+    color: #fff;
+}
+
+.card-noticia{
+    height: 333px;
+    width: 215px;
+    background: linear-gradient(rgb(103, 103, 103), rgb(0, 0, 0) );
+    box-shadow: 1px 1px 20px 4px #000;
+}
+
+.card-noticia img{
+    width: 100%;
+}
+
+/* fim estilização notícias */
 
 
 
