@@ -338,8 +338,16 @@ header{
 
 /* fim estilização notícias */
 
+/* ----------------------------------------------------- */
 
+/* início estilização footer */
 
+footer{
+    height: 250px;
+    background-color: black;
+}
+
+/* fim estilização footer */
 
 
 
