@@ -10,6 +10,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    cursor: url(../assets/icon1.cur), auto;
 }
 
 /* ----------------------------------------------- */
@@ -344,7 +345,122 @@ header{
 
 footer{
     height: 250px;
-    background-color: black;
+    background-color: #000;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.links{
+    color: #fff;
+    /* text-decoration: none; */
+}
+
+.links a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 14px;
+}
+.links h2{
+    font-size: 24px;
+}
+
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.links-footer{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+
+.links ul{
+    margin-left: 40px;
+}
+
+.newletter-midias{
+    color: #fff;
+
+}
+.newsletter p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.newsletter{
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsletter form{
+    height: 39px;
+    display: flex;
+}
+
+.newsletter input{
+    height: 100%;
+    border: none;
+    
+}
+
+/* dentro de .newsletter, todo input com o atributo type="email", terá determinada altura */
+.newsletter input[type=email]{
+    width: 195px;
+    font-size: 24px;
+}
+
+.newsletter input[type=submit]{
+    width: 156px;
+    background-color: #001f70;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+/* quando o usuário passa com o mouse por cima do botão , aparece a mãozinha */
+.newsletter input[type=submit]:hover {
+    background-color: blue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* utiliza pseudo-elemento */
+.newsletter input[type=email]::placeholder{
+    color: #b8b3b3;
+
+}
+
+.midias-sociais{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midias-sociais p{
+    font-size: 23px;
+}
+
+.midias-sociais a{
+    height: 100%;
+}
+
+.midias-sociais img{
+    height: 100%;
+}
+
+.newletter-midias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 172px;
 }
 
 /* fim estilização footer */
