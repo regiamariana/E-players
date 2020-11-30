@@ -13,6 +13,18 @@ body{
     cursor: url(../assets/icon1.cur), auto;
 }
 
+ul, h1, h2, h3, p{
+    margin-bottom: 0;
+}
+
+
+h3 {
+    font-size: 18px;
+}
+
+p{
+    line-height: 1.3em;
+}
 /* ----------------------------------------------- */
 
 /* início estilização da nav */
@@ -71,9 +83,21 @@ header{
 
 .banner{
     height: 610px;
-    background-image: url(../assets/Banner_1_1920.jpg);
+    /* background-image: url(../assets/Banner_1_1920.jpg); */
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.primeiro-banner{
+    background-image: url(../assets/Banner_1_1920.jpg);
+}
+
+.segundo-banner{
+    background-image: url(../assets/Banner_2_1920.jpg);
+}
+
+.terceiro-banner{
+    background-image: url(../assets/Banner_3_1920.png);
 }
 
 .conteudo-banner{
@@ -109,10 +133,22 @@ header{
     /* deixa em caps lock */
     text-transform: uppercase;
     font-weight: bold;
-    background-color: #C20000;
+    /* background-color: #C20000; */
     padding: 15px 30px;
     border-radius: 5px;
     margin-top: 60px;
+}
+
+.primeiro-banner a{
+    background-color:#C20000;
+}
+
+.segundo-banner a{
+    background-color: #001f70;
+}
+
+.terceiro-banner a {
+    background-color: #c76b00;
 }
 
 
